@@ -36,8 +36,10 @@ Guideline: Use standard methods for efficient and maintainable coding.
 __8. GitHub Repository and Hosting__
 Repository: Upload all files to GitHub.
 Hosting: Deploy on selected server.
-Demonstration: Provide a live link or a video demonstration.
-Approach
 
-Methodical Execution: Tackle each step systematically with thorough testing.
-Documentation and Version Control: Maintain good documentation and use GitHub for version control.
+
+## Demonstration: 
+
+https://github.com/Uliana200407/Labwork7Web/assets/114984015/cecad165-b808-44a1-8f07-ca42b3744f45
+
+
