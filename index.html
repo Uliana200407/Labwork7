@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_grid.css">
+    <link rel="stylesheet" href="anim.css">
+    <title>LAB7</title>
+</head>
+<body>
+    <div class=parent_div>
+        <header>
+            <div class="header-info">
+                <div class="text-aligner">
+                    <h2>
+                        Final labwork!
+                    </h2>
+                    IP-22, 1st variant
+                </div>
+            </div>
+
+            <div class="header-logo">
+                <a href="index.html" class="logo">
+                    Uliana Andreieva
+                </a>
+            </div>
+        </header>
+        <main class=content_container>
+            <section class="section_left aside-left">
+                <aside class="aside-left-top">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nam voluptas dignissimos repellat iure mollitia blanditiis obcaecati doloribus aspernatur similique explicabo quis accusantium, hic saepe.
+                    </p>
+                </aside>
+                <aside class="aside-left-bottom">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate unde eius nobis. Beatae dolores deserunt, aliquam, illum maiores, repudiandae voluptatibus nihil et sed perspiciatis fugit laborum quo blanditiis sequi debitis.
+                    </p>
+                </aside>
+            </section>
+            <main id="main-content">
+                <div class="content-grid">
+                    <h1>PHP LAB7</h1>
+
+                    <div class="content-launch">
+                        <div class="play-div">
+                            <button onclick="play()">PLAY</button>
+                            <button onclick="deleteData()">Delete data</button>
+                        </div>
+                        <div id="work" class="modal">
+
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <h2>Controls</h2>
+                                    <div class="contols-buttons">
+                                        <button id="startStopButton">Start</button>
+                                        <button id="reloadButton" onclick="reload()" disabled>Reload</button>
+                                    </div>
+                                    <h3 id="info-text">TEXT</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="anim">
+                                        <div id="ball"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <table id="records-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>LocalStorage Timestamp</th>
+                                    <th>Server Timestamp</th>
+                                    <th>Content</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <span>
+                    IP-22
+                </span>
+                <div class="footer-text-aligner">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eum dolorem nobis maxime autem quos facere esse at officiis quod voluptatem vel, provident quidem quisquam. Veritatis, cum!
+                    </p>
+                </div>
+            </footer>
+        </main>
+        <aside class="aside-right">
+            <nav class="navigation">
+                <a href="#">Text 1</a>
+                <a href="#">Text 2</a>
+            </nav>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
